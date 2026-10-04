@@ -1,0 +1,14 @@
+NYAY AI — FINAL PAPER METRICS
+============================================================
+
+Questions evaluated: 30
+Retrieval success: 30/30
+Precision@5: 76.67%
+Recall@5: 100.00%
+Mean similarity: 0.7364
+Mean retrieval latency: 0.7361 sec
+Citation accuracy: 83.33%
+Mean input tokens: 2259.87
+Mean output tokens: 184.73
+Mean total tokens: 2444.60
+Mean answer latency: 34.2237 sec

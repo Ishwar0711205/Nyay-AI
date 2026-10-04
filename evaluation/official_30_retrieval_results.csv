@@ -1,0 +1,31 @@
+question_id,question,retrieved_document_ids,retrieved_pages,relevant_document_ids,precision_at_5,recall_at_5,max_similarity,latency_seconds,status
+1,"What is the purpose of the Maharashtra Rent Control Act, 1999?",DOC_020;DOC_020;DOC_020;DOC_020;DOC_020,4;5;43;3;32,,0.0,0.0,0.8963,1.0805,Success
+2,What are the grounds for eviction under the Maharashtra Rent Control Act?,DOC_020;DOC_064;DOC_020;DOC_020;DOC_015,4;6;23;44;36,,0.0,0.0,0.8052,0.7813,Success
+3,What is meant by landlord under the Maharashtra Rent Control Act?,DOC_020;DOC_020;DOC_020;DOC_002;DOC_015,4;7;5;179;15,,0.0,0.0,0.8194,0.592,Success
+4,What is meant by tenant under the Maharashtra Rent Control Act?,DOC_020;DOC_020;DOC_020;DOC_014;DOC_020,4;7;5;2;3,,0.0,0.0,0.8094,0.4532,Success
+5,What are the duties of a landlord under the Maharashtra Rent Control Act?,DOC_020;DOC_002;DOC_020;DOC_020;DOC_020,4;200;5;7;3,,0.0,0.0,0.79,0.5665,Success
+6,What restrictions apply to rent increases under the Maharashtra Rent Control Act?,DOC_020;DOC_020;DOC_020;DOC_020;DOC_020,4;13;1;11;7,,0.0,0.0,0.7887,0.5928,Success
+7,What provisions deal with recovery of possession under the Maharashtra Rent Control Act?,DOC_020;DOC_002;DOC_020;DOC_020;DOC_020,2;179;4;44;5,,0.0,0.0,0.811,0.5662,Success
+8,"What establishments are covered by the Maharashtra Shops and Establishments Act, 2017?",DOC_013;DOC_013;DOC_013;DOC_013;DOC_013,4;5;2;1;18,,0.0,0.0,0.8241,0.5394,Success
+9,What are the registration requirements under the Maharashtra Shops and Establishments Act?,DOC_013;DOC_013;DOC_013;DOC_013;DOC_013,8;2;9;1;8,,0.0,0.0,0.7127,0.6557,Success
+10,What are the working-hour provisions under the Maharashtra Shops and Establishments Act?,DOC_013;DOC_013;DOC_013;DOC_010;DOC_013,10;1;4;68;5,,0.0,0.0,0.7816,0.592,Success
+11,What provisions concern weekly holidays under the Maharashtra Shops and Establishments Act?,DOC_013;DOC_013;DOC_013;DOC_013;DOC_013,1;10;4;12;11,,0.0,0.0,0.6992,0.5811,Success
+12,What provisions concern leave under the Maharashtra Shops and Establishments Act?,DOC_013;DOC_013;DOC_013;DOC_013;DOC_013,4;2;1;18;17,,0.0,0.0,0.7832,0.6412,Success
+13,"What is the purpose of the Maharashtra Land Revenue Code, 1966?",DOC_024;DOC_024;DOC_024;DOC_024;DOC_024,18;19;123;21;39,,0.0,0.0,0.8641,0.5741,Success
+14,What powers are given to revenue officers under the Maharashtra Land Revenue Code?,DOC_024;DOC_024;DOC_024;DOC_024;DOC_002,1;4;39;21;205,,0.0,0.0,0.7522,0.7045,Success
+15,What provisions concern assessment of land revenue?,DOC_024;DOC_017;DOC_024;DOC_024;DOC_026,58;25;67;116;54,,0.0,0.0,0.7282,1.0212,Success
+16,What provisions concern land records?,DOC_024;DOC_024;DOC_017;DOC_026;DOC_024,62;61;25;56;27,,0.0,0.0,0.6123,2.3645,Success
+17,What provisions concern government land under the Maharashtra Land Revenue Code?,DOC_024;DOC_024;DOC_024;DOC_024;DOC_024,21;45;19;39;71,,0.0,0.0,0.7805,3.0356,Success
+18,What is the purpose of the Maharashtra Police Act?,DOC_021;DOC_021;DOC_021;DOC_021;DOC_021,12;13;16;10;51,,0.0,0.0,0.7811,0.5167,Success
+19,What powers are provided for maintaining public order under the Maharashtra Police Act?,DOC_021;DOC_021;DOC_021;DOC_021;DOC_021,3;35;40;44;20,,0.0,0.0,0.7303,0.7402,Success
+20,What penalties are provided under the Maharashtra Police Act?,DOC_021;DOC_008;DOC_021;DOC_008;DOC_021,37;81;38;82;80,,0.0,0.0,0.7366,0.7269,Success
+21,What is the purpose of the Maharashtra Stamp Act?,DOC_019;DOC_019;DOC_019;DOC_019;DOC_019,9;4;46;16;7,,0.0,0.0,0.7738,0.6426,Success
+22,How is stamp duty determined?,DOC_019;DOC_019;DOC_019;DOC_019;DOC_019,13;3;45;16;67,,0.0,0.0,0.6069,0.7466,Success
+23,What happens when an instrument is insufficiently stamped?,DOC_019;DOC_019;DOC_019;DOC_019;DOC_019,31;35;30;19;30,,0.0,0.0,0.6263,0.4645,Success
+24,What is the purpose of the Real Estate (Regulation and Development) Act?,DOC_028;DOC_028;DOC_028;DOC_028;DOC_028,1;40;6;24;21,,0.0,0.0,0.6694,0.3934,Success
+25,What is the role of the real estate regulatory authority?,DOC_028;DOC_028;DOC_036;DOC_028;DOC_028,21;40;154;41;6,,0.0,0.0,0.7373,0.3888,Success
+26,What issue is discussed in a selected Bombay High Court judgment?,DOC_053;DOC_055;DOC_047;DOC_002;DOC_008,1;11;20;383;46,,0.0,0.0,0.6833,0.4468,Success
+27,What was the court's decision in the selected Bombay High Court judgment?,DOC_053;DOC_002;DOC_055;DOC_047;DOC_047,1;383;11;18;20,,0.0,0.0,0.6554,0.4015,Success
+28,What legal provision was considered by a selected Bombay High Court judgment?,DOC_002;DOC_002;DOC_053;DOC_019;DOC_019,383;382;1;39;10,,0.0,0.0,0.6867,0.4397,Success
+29,What is the subject of a selected Government Resolution?,DOC_002;DOC_003;DOC_047;DOC_002;DOC_028,155;4;25;153;36,,0.0,0.0,0.5829,0.4118,Success
+30,What direction or policy does a selected Government Resolution provide?,DOC_002;DOC_028;DOC_047;DOC_003;DOC_051,155;36;25;4;23,,0.0,0.0,0.5626,0.4232,Success

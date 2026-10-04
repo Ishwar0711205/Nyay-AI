@@ -1,0 +1,12 @@
+NYAY AI — FINAL EVALUATION SUMMARY
+============================================================
+
+Questions evaluated: 30
+Retrieval success: 30/30
+Precision@5: 76.67%
+Recall@5: 100.00%
+Mean similarity: 0.7364
+Mean retrieval latency: 0.7361 sec
+Citation accuracy: 0.00%
+Mean input tokens: 0.00
+Mean output tokens: 0.00

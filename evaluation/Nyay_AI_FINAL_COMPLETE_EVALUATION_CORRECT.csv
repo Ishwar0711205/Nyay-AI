@@ -1,0 +1,189 @@
+question_id,ground_truth_document,retrieved_top_5,relevant_hits_in_top5,precision_at_5,recall_at_5,max_similarity_retrieval,latency_seconds_retrieval,question,answer,confidence,max_similarity_gemini,citation_format_accuracy,input_tokens,output_tokens,total_tokens,latency_seconds_gemini,status,error
+1,DOC_020,DOC_020 | DOC_020 | DOC_020 | DOC_020 | DOC_020,5,1.0,1.0,0.8963,1.0805,"What is the purpose of the Maharashtra Rent Control Act, 1999?","The purpose of the Maharashtra Rent Control Act, 1999 is to:
+
+1. **Unify, consolidate, and amend** the laws prevailing in different parts of the State of Maharashtra relating to:
+   * The control of rent and repairs of certain premises, and
+   * The control of eviction [S2].
+2. **Encourage the construction of new houses** by assuring landlords a fair return on their investment [S2].
+3. Provide for matters connected with these purposes [S2].",Corpus-Grounded,0.896250111422665,1.0,1528,107,1635,30.095,Success,
+2,DOC_020,DOC_020 | DOC_064 | DOC_020 | DOC_020 | DOC_015,3,0.6,1.0,0.8052,0.7813,What are the grounds for eviction under the Maharashtra Rent Control Act?,"Insufficient Evidence
+
+The retrieved sources do not contain a complete list or detailed text of the grounds for eviction under Section 16 or Section 23 of the Maharashtra Rent Control Act, 1999 [S3], [S4]. 
+
+The sources only explicitly mention recovery of possession under Section 24 when a licensee fails to vacate the premises upon the expiry of a leave and license agreement [S2].",Corpus-Grounded,0.8051839406980499,1.0,1935,86,2021,34.211,Success,
+3,DOC_020,DOC_020 | DOC_020 | DOC_020 | DOC_002 | DOC_015,3,0.6,1.0,0.8194,0.592,What is meant by landlord under the Maharashtra Rent Control Act?,Insufficient Evidence,Corpus-Grounded,0.8193585422052618,0.0,2272,2,2274,29.678,Success,
+4,DOC_020,DOC_020 | DOC_020 | DOC_020 | DOC_014 | DOC_020,4,0.8,1.0,0.8094,0.4532,What is meant by tenant under the Maharashtra Rent Control Act?,Insufficient Evidence,Corpus-Grounded,0.8094265218679623,0.0,1657,2,1659,35.826,Success,
+5,DOC_020,DOC_020 | DOC_002 | DOC_020 | DOC_020 | DOC_020,4,0.8,1.0,0.79,0.5665,What are the duties of a landlord under the Maharashtra Rent Control Act?,Insufficient Evidence,Corpus-Grounded,0.7900143278942808,0.0,1847,2,1849,43.483,Success,
+6,DOC_020,DOC_020 | DOC_020 | DOC_020 | DOC_020 | DOC_020,5,1.0,1.0,0.7887,0.5928,What restrictions apply to rent increases under the Maharashtra Rent Control Act?,"Under the Maharashtra Rent Control Act, 1999, the following restrictions apply to rent increases:
+
+1. **Illegality of Excess Rent**: It is unlawful to claim or receive any rent increase above the standard rent and permitted increases unless explicitly authorized under the Act or repealed Acts [S4].
+2. **Penalties for Unlawful Increases**: Any contravention of Section 10(1) regarding excess rent is a punishable offence with imprisonment not exceeding three months, a fine not exceeding Rs. 5,000, or both [S4].
+3. **Cap on Annual Rent Increases**: A landlord is entitled to increase rent annually by a maximum of 4 per cent per annum [S4].
+4. **Cap on Increases for Taxes and Utilities**: 
+   - Rent increases based on rate, cess, taxes, land assessment, ground rent, or other levies cannot exceed the actual amount of such levy [S2].
+   - Increases for electricity and water charges cannot exceed the additional actual amount payable by the landlord [S2].
+   - The increase recoverable from each tenant must be proportional to their rent relative to total charges [S2].
+5. **Restrictions on Re-adjudicating Rent**: No court will entertain a plea that rent increases are excessive if standard rent or permitted increases were already duly fixed on the merits by a competent court without fraud, collusion, or factual error, provided there have been no subsequent structural alterations or changes in amenities [S4].
+6. **Exemption Restrictions**: Provisions regarding standard rent and permitted increases do not apply to premises that were not let or given on licence for a continuous period of one year, subject to statutory exceptions (such as housing schemes or specified statutory re-entries) [S5].",Corpus-Grounded,0.7886584824580872,1.0,2211,365,2576,28.128,Success,
+7,DOC_020,DOC_020 | DOC_002 | DOC_020 | DOC_020 | DOC_020,4,0.8,1.0,0.811,0.5662,What provisions deal with recovery of possession under the Maharashtra Rent Control Act?,"Under the Maharashtra Rent Control Act, 1999, the following provisions specifically deal with the recovery of possession:
+
+* **Chapter IV (Recovery of Possession):** Deals with the general recovery of possession [S2], including **Section 22**, which provides for the recovery of possession in cases where tenancy was created during a service period [S1].
+* **Chapter V (Special Provisions for Recovery of Possession in Certain Cases):** 
+  * **Section 23:** Entitles members of the Armed Forces of the Union, scientists, or their successors-in-interest to recover possession of premises required for their occupation [S1], [S4].
+  * **Section 24:** Entitles a landlord to recover possession of premises given on a license upon the expiry of the license period [S1], [S4].
+* **Chapter VIII (Summary Disposal of Certain Applications):** 
+  * **Section 42:** Provides a special provision for landlords to make an application to the Competent Authority to evict a tenant or licensee [S1].",Corpus-Grounded,0.8109570838458584,1.0,2004,224,2228,32.877,Success,
+8,DOC_013,DOC_013 | DOC_013 | DOC_013 | DOC_013 | DOC_013,5,1.0,1.0,0.8241,0.5394,"What establishments are covered by the Maharashtra Shops and Establishments Act, 2017?","Under the Maharashtra Shops and Establishments (Regulation of Employment and Conditions of Service) Act, 2017, the coverage extends to the whole State of Maharashtra and includes the following [S2]:
+
+1. **Types of Establishments:** 
+   Shops, residential hotels, restaurants, eating houses, theatres, other places of public amusement or entertainment, and other establishments [S2].
+
+2. **Applicability based on Worker Count:**
+   * **Establishments with 10 or more workers:** The provisions of the Act (except section 7) apply to establishments employing ten or more workers [S2].
+   * **Establishments with less than 10 workers:** Only the provisions of sections 7 and 36A apply to establishments employing less than ten workers [S2].",Corpus-Grounded,0.8240875101415518,1.0,1654,167,1821,7.196,Success,
+9,DOC_013,DOC_013 | DOC_013 | DOC_013 | DOC_013 | DOC_013,5,1.0,1.0,0.7127,0.6557,What are the registration requirements under the Maharashtra Shops and Establishments Act?,"Under the Maharashtra Shops and Establishments (Regulation of Employment and Conditions of Service) Act, 2017, the registration requirements are as follows:
+
+1. **Applicability and Timeline**:
+   * **Establishments with 10 or more workers**: The employer must apply online for registration to the local Facilitator within **60 days** from the commencement of the Act or the commencement of the business [S5].
+   * Establishments with valid registrations under the previous 1948 Act remain exempt from fresh registration until their existing registration expires [S1], [S5].
+   * **Establishments with less than 10 workers**: They are not required to obtain registration under Section 6, but must submit an **intimation** of commencing business online to the Facilitator within **60 days** [S3]. If worker strength increases to 10 or more, Section 6 registration becomes mandatory [S3].
+
+2. **Application Particulars**:
+   The online application must be submitted with prescribed fees, a self-declaration, and self-certified documents containing [S1], [S5]:
+   * Name of the employer and manager (if any) [S5]
+   * Postal address of the establishment [S5]
+   * Name of the establishment (if any) [S1], [S5]
+   * Actual nature of the business [S1], [S5]
+   * Other prescribed particulars [S1], [S5]
+
+3. **Issuance and LIN**:
+   * Upon online receipt of the application, documents, and fees, the Facilitator registers the establishment and issues an online registration certificate containing a **Labour Identification Number (LIN)** [S1].
+   * The registration certificate must be produced whenever demanded by the Facilitator [S1].
+
+4. **Validity and Renewal**:
+   * **Validity**: Granted for the period requested by the applicant, up to a maximum period of **10 years** [S1].
+   * **Renewal**: Renewal applications must be submitted online at least **30 days before the expiry** of the registration certificate [S1].
+   * **Late Renewal**: Applications submitted within 30 days *after* expiry require an additional late fee equal to half of the renewal fee [S1], [S3].",Corpus-Grounded,0.7126573646374361,1.0,2182,487,2669,39.899,Success,
+10,DOC_013,DOC_013 | DOC_013 | DOC_013 | DOC_010 | DOC_013,4,0.8,1.0,0.7816,0.592,What are the working-hour provisions under the Maharashtra Shops and Establishments Act?,"Under the Maharashtra Shops and Establishments (Regulation of Employment and Conditions of Service) Act, 2017, the primary provisions regarding working hours are as follows:
+
+* **Opening and Closing Hours:** The State Government may, in the public interest, fix opening and closing hours for different classes of establishments, shopping complexes, malls, or areas by notification in the Official Gazette [S1].
+* **Daily and Weekly Limits:** No adult worker shall be required or allowed to work in any establishment for more than **9 hours in any day** and **48 hours in any week** [S1].
+* **Interval for Rest:** No adult worker shall be asked to work continuously for more than **5 hours** without an interval for rest/break of at least **half an hour** [S1].
+* **Relaxation for Urgent Work:** Working hours or weekly holidays may be relaxed in cases of work of an urgent nature with the prior permission of the facilitator [S1].
+* **Working Hours for Women Workers:** 
+  * Women workers shall generally only be required or allowed to work between **7:00 a.m. and 9:30 p.m.** [S1].
+  * A woman worker may work between **9:30 p.m. and 7:00 a.m.** provided she gives her **consent** and the employer provides adequate protection for her safety, dignity, honour, protection from sexual harassment, and transportation from the establishment to her doorstep [S1].
+  * The State Government may, by official notification, prohibit or regulate the employment of women workers between 9:30 p.m. and 7:00 a.m. in specified establishments in the public interest [S1].",Corpus-Grounded,0.781599670496485,1.0,2136,367,2503,38.007,Success,
+11,DOC_013,DOC_013 | DOC_013 | DOC_013 | DOC_013 | DOC_013,5,1.0,1.0,0.6992,0.5811,What provisions concern weekly holidays under the Maharashtra Shops and Establishments Act?,"Under the Maharashtra Shops and Establishments (Regulation of Employment and Conditions of Service) Act, 2017, the provisions regarding weekly holidays include:
+
+* **Entitlement to Weekly Holiday:** Every worker must be allowed a weekly holiday with wages [S5].
+* **Payment of Wages for Weekly Holiday:** No deduction can be made from a worker's wages on account of a weekly holiday [S5].
+  * Daily wage workers must be paid their daily wage for the day of their weekly off [S5].
+  * Piece-rated workers must be paid for the weekly holiday at a rate equivalent to the daily average of their wages for the six days actually worked prior to the holiday (excluding overtime earnings) [S5].
+  * This rule does not apply to any worker whose total period of continuous employment is less than six days [S5].
+* **Working on a Day of Rest:** If a worker is required to work on a day of rest, they are entitled to wages at the rate of twice their ordinary rate of wages [S5].
+* **Relaxation of Weekly Holiday:** In cases of work of an urgent nature, weekly holiday rules may be relaxed with the previous permission of the facilitator [S2].",Insufficient Evidence,0.699170607387274,1.0,2146,255,2401,37.285,Success,
+12,DOC_013,DOC_013 | DOC_013 | DOC_013 | DOC_013 | DOC_013,5,1.0,1.0,0.7832,0.6412,What provisions concern leave under the Maharashtra Shops and Establishments Act?,"Under Chapter IV (""Leave with Pay and Payment of Wages"") of the Maharashtra Shops and Establishments (Regulation of Employment and Conditions of Service) Act, 2017, leave is governed by Section 18 (""leave"") [S3]. 
+
+The retrieved sources list the section heading but do not contain the detailed substantive text of Section 18.",Corpus-Grounded,0.7832055435812433,1.0,1643,74,1717,11.069,Success,
+13,DOC_024,DOC_024 | DOC_024 | DOC_024 | DOC_024 | DOC_024,5,1.0,1.0,0.8641,0.5741,"What is the purpose of the Maharashtra Land Revenue Code, 1966?","The purpose of the Maharashtra Land Revenue Code, 1966 is to unify and amend the law relating to land and land revenue in the State of Maharashtra, as well as to provide for matters connected therewith [S2].",Corpus-Grounded,0.8641175825256825,1.0,2254,46,2300,30.94,Success,
+14,DOC_024,DOC_024 | DOC_024 | DOC_024 | DOC_024 | DOC_002,4,0.8,1.0,0.7522,0.7045,What powers are given to revenue officers under the Maharashtra Land Revenue Code?,"Based on the provided legal sources, the Maharashtra Land Revenue Code, 1966 provides for the powers and duties of revenue officers as follows:
+
+* **Tahsildar Powers (Delegation):** Under Section 13(3), the State Government may direct an Additional Tahsildar to exercise the powers and discharge the duties and functions of a Tahsildar within their jurisdiction [S5].
+* **Recovery and Search Warrants:** Under Section 18, powers are provided for issuing search warrants for the recovery of papers or government property, and recovering public moneys as arrears of revenue [S1].
+* **Survey Officers' Powers:** Under Section 80, a survey officer may, by general notice or summons, require suitable service from holders of land [S2].
+* **General Framework:** The Code contains statutory provisions establishing the powers and duties of revenue officers (Section 13), survey officers and circle officers (Section 14), delegation of powers (Section 9A), and conferral of powers on other persons by the State Government (Section 15) [S1]. 
+
+*(Note: Full detailed provisions detailing all specific individual powers of every revenue officer are not fully set out in the provided text extracts.)*",Corpus-Grounded,0.7521832441704894,1.0,2489,260,2749,30.982,Success,
+15,DOC_024,DOC_024 | DOC_017 | DOC_024 | DOC_024 | DOC_026,3,0.6,1.0,0.7282,1.0212,What provisions concern assessment of land revenue?,"Based on the provided sources, the provisions concerning the assessment of land revenue include:
+
+1. **Fixing and Revision of Land Revenue Assessment (Section 68):** 
+   * On all lands not wholly exempt where assessment is not fixed, the Collector fixes the amount of land revenue to be paid, subject to prescribed rules, for a period not exceeding ninety-nine years [S1].
+   * If land held free of assessment is used for another purpose or ceases to be exempt, it becomes liable to assessment fixed by the Collector [S1].
+   * After the expiry of the fixed period, the Collector may revise the assessment for a period not exceeding ninety-nine years as specified by the State Government [S1].
+
+2. **Assessment of Non-Agricultural Lands in Urban Areas:**
+   * The Collector assesses Class I non-agricultural lands at a rate not exceeding ten paise per square metre per year (or prescribed amount, whichever is higher) and Class II lands at a rate not exceeding five paise per square metre per year (or prescribed amount, whichever is higher) [S3].
+   * The assessment fixed must not be less than the agricultural assessment leviable on the land [S3].
+   * The Collector determines non-agricultural assessment in urban areas by dividing the area into blocks based on market value, location, non-agricultural uses, and associated advantages or disadvantages [S3].
+
+3. **Rules and Valuation Procedures:**
+   * Rules govern the manner in which the Settlement Officer fixes the land revenue assessment of individual survey numbers and sub-divisions based on their classification value [S4].
+   * Rules also govern the estimation, publication, and revision of standard rates of non-agricultural assessment [S4].
+   * The assessment payable on land is a prescribed factor considered when determining the reasonable price of agricultural land [S5].",Corpus-Grounded,0.7282473060113471,1.0,2295,382,2677,18.573,Success,
+16,DOC_024,DOC_024 | DOC_024 | DOC_017 | DOC_026 | DOC_024,3,0.6,1.0,0.6123,2.3645,What provisions concern land records?,"Based on the retrieved legal sources, the provisions concerning land records include:
+
+* **Recognition of Survey Numbers:** Any survey number separately recognized in the land records is deemed to have been authorizedly made, regardless of its extent [S2].
+* **Entry of Area and Assessment (Section 84):** The area and assessment of survey numbers and their sub-divisions must be entered in such records as maintained under the rules made by the State Government [S2].
+* **Privilege of Title-Deeds (Section 88):** Once the original survey of land is completed, approved, and confirmed under the authority of the State Government, no person can be compelled to produce their title-deeds or disclose their contents for subsequent surveys undertaken under that chapter [S1].
+* **Validation of Prior Surveys (Section 89):** Any surveys made prior to the commencement of the Code under any law in force are deemed to have been made under the provisions of the relevant chapter [S1].",Insufficient Evidence,0.6122582983226577,1.0,2404,205,2609,38.763,Success,
+17,DOC_024,DOC_024 | DOC_024 | DOC_024 | DOC_024 | DOC_024,5,1.0,1.0,0.7805,3.0356,What provisions concern government land under the Maharashtra Land Revenue Code?,"Based on the provided sources, the provisions concerning government land under the Maharashtra Land Revenue Code, 1966 include:
+
+1. **Power to Dispose of Government Land (Section 40):** Nothing in the Code derogates from the right of the State Government to dispose of any land that is the property of the Government on such terms and conditions as it deems fit [S4].
+2. **Dues Payable by Government Lessees (Section 39):** Every government lessee holding government land must pay as land revenue the lease money fixed under the terms of the lease [S4]. 
+3. **Exemptions from Conversion Provisions (Section 42(3)):** Provisions regarding non-agricultural land conversion under Section 42 do not apply to land granted by the Government under section 31 or 38 for a specific purpose, or to land acquired by the Government under relevant laws and handed over to an individual, institution, or company for its use [S2].
+4. **Government Lessee Status:** A person granted land by the government for a determined period, purpose, and conditions is designated as a ""government lessee"" [S4], which is legally distinct from an occupant of unalienated land [S1].",Corpus-Grounded,0.7805279378050315,1.0,2872,258,3130,35.123,Success,
+18,DOC_021,DOC_021 | DOC_021 | DOC_021 | DOC_021 | DOC_021,5,1.0,1.0,0.7811,0.5167,What is the purpose of the Maharashtra Police Act?,"Based on the provided legal source [S2], the purpose of the Maharashtra Police Act (Act No. XXII of 1951) is:
+
+1. **Amalgamation:** To amalgamate various district and regional police forces (including the Brihan Mumbai police force and forces from the Saurashtra, Kutch, Hyderabad areas, and Vidarbha region) into one common police force [S2].
+2. **Uniformity:** To introduce uniform methods regarding the working control of the police force throughout the State [S2].
+3. **Regulation & Maintenance of Public Order:** To consolidate and amend the law relating to the regulation of the police force, as well as the exercise of powers and performance of functions by the State Government and members of the police force for the maintenance of public order [S2].",Corpus-Grounded,0.7810804026686197,1.0,2606,168,2774,32.484,Success,
+19,DOC_021,DOC_021 | DOC_021 | DOC_021 | DOC_021 | DOC_021,5,1.0,1.0,0.7303,0.7402,What powers are provided for maintaining public order under the Maharashtra Police Act?,"Under the Maharashtra Police Act, the following powers are provided to maintain public order and prevent disorder:
+
+1. **Power to Make Rules for Traffic and Preservation of Order (Section 33):** The Commissioner, District Magistrate, or Superintendent of Police (within their respective jurisdictions) can make, alter, or rescind rules or orders to preserve order in public places and regulate traffic [S1, S3].
+2. **State Government Orders under Section 144 (Section 32):** The State Government may, by notification in the Official Gazette, make orders similar to those issued by a magistrate under Section 144 of the Code of Criminal Procedure, 1898 [S1, S3].
+3. **Prevention of Disorder, Riots, and Noise:** Specific powers are provided to:
+   * Prohibit certain acts to prevent disorder (Section 37) [S1].
+   * Prohibit or regulate the continuance of music, sound, or noise (Section 38) [S1].
+   * Issue orders for the prevention of riots (Section 39) [S1].
+   * Issue orders to maintain order at religious ceremonials (Section 40) [S1].
+   * Provide against disorder at places of amusement and public meetings, including free police access to such places (Section 41) [S1].
+4. **Monitoring and Intelligence Collection (Section 24):** The Director-General and Inspector-General or Commissioner may call for reports, returns, and statements from subordinate officers on subjects connected with the maintenance of order [S2].",Corpus-Grounded,0.7302917542078026,1.0,2783,336,3119,53.357,Success,
+20,DOC_021,DOC_021 | DOC_008 | DOC_021 | DOC_008 | DOC_021,3,0.6,1.0,0.7366,0.7269,What penalties are provided under the Maharashtra Police Act?,"Based on the retrieved sources, the Maharashtra Police Act provides for the following penalties:
+
+### 1. Offences and Penalties
+* **Failure to Deliver Up Certificate of Appointment or Office (Section 146):** Punishable by imprisonment for a term up to one month, a fine up to 200 rupees, or both [S5].
+* **Vexatious Entry, Search, Arrest, Unnecessary Violence, or Threats by a Police Officer (Section 147):** Punishable by imprisonment for a term up to six months, a fine up to 500 rupees, or both [S5].
+* **Vexatious Delay in Forwarding an Arrested Person (Section 148):** Punishable by imprisonment for a term up to six months, a fine up to 500 rupees, or both [S5].
+* **Opposing or Failing to Comply with Directions Under Section 70 (Section 149):** Punishable by imprisonment for a term up to one year (not less than four months, unless reasons are recorded in writing) and liable to a fine [S5].
+
+### 2. Departmental Punishments
+* **Disciplinary Penalties (Sections 25, 27, 27A, 27B):** Provides for minor and major penalties against police officers (including dismissal or removal from service), subject to prescribed inquiry procedures, appeals, review, and show-cause notices [S1, S3].",Corpus-Grounded,0.7365685794533271,1.0,2832,316,3148,49.05,Success,
+21,DOC_019,DOC_019 | DOC_019 | DOC_019 | DOC_019 | DOC_019,5,1.0,1.0,0.7738,0.6426,What is the purpose of the Maharashtra Stamp Act?,"The purpose of the Maharashtra Stamp Act is to consolidate and amend the law relating to stamps and rates of stamp duties in the State, excluding stamp duties in respect of documents specified in Entry 91 of List I in the Seventh Schedule to the Constitution of India [S1].",Corpus-Grounded,0.7738277879618642,1.0,2691,55,2746,30.4,Success,
+22,DOC_019,DOC_019 | DOC_019 | DOC_019 | DOC_019 | DOC_019,5,1.0,1.0,0.6069,0.7466,How is stamp duty determined?,"Under the Maharashtra Stamp Act, stamp duty is determined based on the following provisions:
+
+1. **Schedule I Provisions:** Stamp duty is chargeable on instruments executed in the State, or executed outside the State relating to property situated or matters done in the State, as indicated in Schedule I [S1], [S3]. 
+2. **Type and Description of Instrument:** The proper stamp duty is determined according to the description of the instrument and the corresponding rate or amount specified in Column 2 of Schedule I [S3], [S5].
+3. **Copies and Extracts:** If the proper duty on an original instrument is not paid, a copy or extract of that instrument is chargeable with the full stamp duty specified in Schedule I [S1].
+4. **Exemptions:** Stamp duty is not chargeable on instruments executed by, on behalf of, or in favour of the Government, or where specific exemptions under Schedule I apply [S1], [S5].",Insufficient Evidence,0.6069375728938838,1.0,2602,197,2799,34.353,Success,
+23,DOC_019,DOC_019 | DOC_019 | DOC_019 | DOC_019 | DOC_019,5,1.0,1.0,0.6263,0.4645,What happens when an instrument is insufficiently stamped?,"Under the Maharashtra Stamp Act, when an instrument is insufficiently stamped:
+
+1. **Inadmissibility and Bar on Registration:** The instrument cannot be admitted in evidence for any purpose by any authority or court, nor can it be acted upon, registered, or authenticated by any public officer [S3].
+2. **Impounding:** If such an instrument is registered through mistake or otherwise, the registering officer can call for the original instrument and impound it after giving the party an opportunity of being heard [S3].
+3. **Curing the Defect:** It can be admitted in evidence upon payment of the deficient stamp duty along with a penalty calculated at 2% of the deficient portion per month or part thereof from the date of execution, provided the penalty does not exceed four times the deficient portion [S1], [S3], [S5].
+4. **Finality of Admission:** Once an instrument has been admitted in evidence, that admission cannot be called into question at any stage of the same suit or proceeding on the ground that it was not duly stamped (except as provided in Section 58) [S1].",Insufficient Evidence,0.6262750772993447,1.0,2776,232,3008,36.397,Success,
+24,DOC_028,DOC_028 | DOC_028 | DOC_028 | DOC_028 | DOC_028,5,1.0,1.0,0.6694,0.3934,What is the purpose of the Real Estate (Regulation and Development) Act?,"Based on the retrieved legal sources, the main purposes of the Real Estate (Regulation and Development) Act, 2016 are to:
+
+1. **Regulate and Promote the Sector:** Establish the Real Estate Regulatory Authority (RERA) for the regulation and promotion of the real estate sector [S2], [S3].
+2. **Ensure Transparency and Efficiency:** Ensure the sale of plots, apartments, buildings, or real estate projects in an efficient and transparent manner [S2], [S3].
+3. **Consumer Protection and Accountability:** Protect the interests of consumers, set minimum standards of accountability, ensure symmetry of information between promoters and buyers, and reduce frauds and delays [S2], [S3].
+4. **Standardization:** Establish uniformity, professionalism, and standardization of business practices and transactions in the real estate market [S2].
+5. **Balance Interests:** Balance the responsibilities and interests of both consumers and promoters [S2].
+6. **Speedy Dispute Redressal:** Establish an adjudicating mechanism for fast-track dispute resolution and create the Real Estate Appellate Tribunal to hear appeals from orders of the Authority and Adjudicating Officers [S2], [S3].",Insufficient Evidence,0.6694346525889819,1.0,2306,248,2554,29.526,Success,
+25,DOC_028,DOC_028 | DOC_028 | DOC_036 | DOC_028 | DOC_028,4,0.8,1.0,0.7373,0.3888,What is the role of the real estate regulatory authority?,"Based on the retrieved sources, the role of the Real Estate Regulatory Authority (including MahaRERA in Maharashtra) includes the following:
+
+1. **Regulation and Promotion:** To regulate and promote the real estate sector, ensuring that the sale of plots, apartments, buildings, or real estate projects is carried out in an efficient and transparent manner [S2, S5].
+2. **Consumer Protection and Accountability:** To protect the interests of consumers in the real estate sector, enforce greater accountability on developers/promoters, and infuse transparency, financial discipline, and citizen-centricity [S2, S3, S5].
+3. **Mandatory Disclosure Enforcement:** To ensure mandatory disclosure of project details by developers, including information on completion timelines, carpet area, amenities, and pricing [S3].
+4. **Dispute Redressal:** To provide an adjudicating mechanism for the speedy redressal of grievances and address complaints filed by affected persons in cases of violations or contraventions of the Act [S3, S5].
+5. **Statutory Functions:** To function as a body corporate with perpetual succession, exercising assigned legal powers, holding property, contracting, and being capable of suing or being sued [S1].",Corpus-Grounded,0.7373203487148822,1.0,2106,248,2354,33.542,Success,
+26,DOC_053,DOC_053 | DOC_055 | DOC_047 | DOC_002 | DOC_008,1,0.2,1.0,0.6833,0.4468,What issue is discussed in a selected Bombay High Court judgment?,"In a judgment of the Bombay High Court (Writ Petition No. 5716 of 2024), the court discussed the issue of the maintainability of a further appeal before a higher appellate authority against an order that merely condones the delay in filing an appeal passed by a lower appellate authority under Section 251 of the Maharashtra Land Revenue Code, 1966 (MLRC) [S1]. 
+
+Additionally, in another judgment (Writ Petition No. 3433 of 2025), the Bombay High Court addressed whether a writ petition under Article 226 of the Constitution of India should be entertained despite the existence of an alternative statutory remedy, specifically when the issues pertain to jurisdiction, natural justice, and procedural fairness [S3].",Insufficient Evidence,0.6833074750254488,1.0,2332,164,2496,28.758,Success,
+27,DOC_053,DOC_053 | DOC_002 | DOC_055 | DOC_047 | DOC_047,1,0.2,1.0,0.6554,0.4015,What was the court's decision in the selected Bombay High Court judgment?,Insufficient Evidence,Insufficient Evidence,0.6554189820948673,0.0,2276,2,2278,70.059,Success,
+28,DOC_053,DOC_002 | DOC_002 | DOC_053 | DOC_019 | DOC_019,1,0.2,1.0,0.6867,0.4397,What legal provision was considered by a selected Bombay High Court judgment?,"In the High Court of Judicature at Bombay (Writ Petition No. 5716 of 2024), the court considered **Section 251 of the Maharashtra Land Revenue Code, 1966 (MLRC)** regarding the issue of maintainability of a further appeal before a higher appellate authority against an order merely condoning delay in filing an appeal [S3].",Insufficient Evidence,0.6866984275718367,1.0,2933,83,3016,30.78,Success,
+29,DOC_002,DOC_002 | DOC_003 | DOC_047 | DOC_002 | DOC_028,2,0.4,1.0,0.5829,0.4118,What is the subject of a selected Government Resolution?,Insufficient Evidence,Insufficient Evidence,0.5828560189728549,0.0,1910,2,1912,34.278,Success,
+30,DOC_002,DOC_002 | DOC_028 | DOC_047 | DOC_003 | DOC_051,1,0.2,1.0,0.5626,0.4232,What direction or policy does a selected Government Resolution provide?,"The provided sources outline policies and directions under specific Government Resolutions:
+
+1. **Government Resolution dated 21st November 1957**: Establishes policy regarding non-agricultural plots held on new tenure. Specifically, it provides that unauthorised sales of new tenure plots may be regularised by the Collector by sharing 62.5% to 75% of the difference between the sale proceeds and the original price paid (plus the value of improvements made) [S5]. It also considers permissions for sale, conversion of tenure into old tenure, and extending time limits for building construction [S5].
+2. **Government Resolution dated 4th July 2019 (issued under Section 79A(1))**: Structurally divides responsibilities between the Secretary (acting in an administrative capacity to convene general body meetings, prepare minutes, seek reports, and publish notices) and the Managing Committee collectively (seeking quotations from project management consultants and submitting proposals) [S3].",Insufficient Evidence,0.5625961458413729,1.0,2114,202,2316,41.591,Success,

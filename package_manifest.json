@@ -1,0 +1,22 @@
+{
+  "name": "Nyay AI FINAL PAPER-ALIGNED UI PACKAGE",
+  "version": "2.0",
+  "generated": "2026-09-08",
+  "architecture": "React -> FastAPI/JWT -> Orchestrator -> 4 Agents -> MiniLM -> ChromaDB top-5 cosine -> Gemini 3.6 Flash -> citations/confidence",
+  "features": [
+    "JWT register/login",
+    "private per-user workspace",
+    "PDF upload",
+    "official/user/both retrieval",
+    "top-5 cosine retrieval",
+    "source citations",
+    "Corpus-Grounded/General confidence",
+    "session history",
+    "Vercel config",
+    "Render config",
+    "one-click Windows launchers"
+  ],
+  "official_chromadb": "database/chroma_final",
+  "official_collection": "nyay_ai_final",
+  "expected_official_chunks": 5259
+}

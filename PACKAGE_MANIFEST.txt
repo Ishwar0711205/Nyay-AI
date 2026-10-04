@@ -1,0 +1,124 @@
+================================================================================
+NYAY AI — PORTABLE PACKAGE MANIFEST
+================================================================================
+Target Root: Nyay_AI_PORTABLE_PACKAGE
+Generated On: 2026-10-04
+Package Purpose: Self-contained, portable Windows distribution of Nyay AI
+================================================================================
+
+1. OFFICIAL CHROMADB DATABASE INVENTORY
+--------------------------------------------------------------------------------
+The preloaded official Maharashtra legal database is located in database/chroma_final/.
+It contains 65 verified Maharashtra Acts, Rules, GRs, and High Court judgments (5,259 vector chunks).
+All database files are copied directly and verified with SHA-256 checksums:
+
+  - 1bf5459e-0f40-4f1a-a8b7-a2d3e57dccda\data_level0.bin    7.99 MB  (SHA256: 4963a7d49b9f3ecf...)
+  - 1bf5459e-0f40-4f1a-a8b7-a2d3e57dccda\header.bin    0.00 MB  (SHA256: 846f2c657c3ba2b0...)
+  - 1bf5459e-0f40-4f1a-a8b7-a2d3e57dccda\index_metadata.pickle    0.44 MB  (SHA256: 3f4e43a00bba7534...)
+  - 1bf5459e-0f40-4f1a-a8b7-a2d3e57dccda\length.bin    0.02 MB  (SHA256: 08e2c349149642c9...)
+  - 1bf5459e-0f40-4f1a-a8b7-a2d3e57dccda\link_lists.bin    0.04 MB  (SHA256: 09e40a6c86f857d2...)
+  - chroma.sqlite3                                  74.65 MB  (SHA256: 9a332d2449fac9fa...)
+
+2. EXCLUDED FILES AND DIRECTORIES (WITH JUSTIFICATIONS)
+--------------------------------------------------------------------------------
+The following files and directories were intentionally excluded from this package:
+
+  * frontend/node_modules/       : 200+ MB of generated Node packages. Recreated via 'npm install'.
+  * .venv / venv / virtualenvs   : Machine-specific Python binary virtual environments. Recreated via '1_setup_windows.bat'.
+  * .env / .env.local            : Contains private developer API keys and secrets. Replaced by clean .env.example template.
+  * database/auth.sqlite3        : Contains private user credentials/passwords. FastAPI automatically creates a clean database on first boot.
+  * database/user_upload_chroma/*: Contains previous private test user uploads. Isolated user workspace starts clean.
+  * frontend/dist/               : Transient production build folder. Built on-demand via 'npm run build'.
+  * frontend/frontend.log        : Local test execution log.
+  * __pycache__ / *.pyc          : Compiled Python bytecode caches.
+  * .git / .github               : Version control metadata repository.
+
+3. COMPLETE INVENTORY OF INCLUDED FILES
+--------------------------------------------------------------------------------
+  .backend_ready                                                     0.0 KB
+  .env.example                                                       1.5 KB
+  .gitignore                                                         0.5 KB
+  1_setup_windows.bat                                                3.8 KB
+  2_run_backend.bat                                                  1.2 KB
+  3_run_frontend.bat                                                 0.8 KB
+  HOW_TO_RUN.md                                                      5.2 KB
+  README.md                                                          2.3 KB
+  backend\.env.example                                               0.7 KB
+  backend\Dockerfile                                                 0.7 KB
+  backend\Procfile                                                   0.1 KB
+  backend\README.md                                                  3.2 KB
+  backend\app.py                                                    36.8 KB
+  backend\requirements.txt                                           0.2 KB
+  database\chroma_final\1bf5459e-0f40-4f1a-a8b7-a2d3e57dccda\data_level0.bin    8183.6 KB
+  database\chroma_final\1bf5459e-0f40-4f1a-a8b7-a2d3e57dccda\header.bin       0.1 KB
+  database\chroma_final\1bf5459e-0f40-4f1a-a8b7-a2d3e57dccda\index_metadata.pickle     449.4 KB
+  database\chroma_final\1bf5459e-0f40-4f1a-a8b7-a2d3e57dccda\length.bin      19.5 KB
+  database\chroma_final\1bf5459e-0f40-4f1a-a8b7-a2d3e57dccda\link_lists.bin      43.7 KB
+  database\chroma_final\chroma.sqlite3                           76444.0 KB
+  database\user_upload_chroma\README.md                              0.2 KB
+  dataset_info\README.txt                                            0.3 KB
+  dataset_info\dataset_inventory.csv                                 8.6 KB
+  docker-compose.yml                                                 0.4 KB
+  documentation\RESEARCH_PAPER_ALIGNMENT.md                          1.3 KB
+  documentation\RUN_GUIDE.md                                         0.6 KB
+  evaluation\Nyay_AI_FINAL_COMPLETE_EVALUATION_CORRECT.csv          31.2 KB
+  evaluation\Nyay_AI_FINAL_EVALUATION_SUMMARY.txt                    0.3 KB
+  evaluation\Nyay_AI_FINAL_PAPER_METRICS.txt                         0.4 KB
+  evaluation\evaluation_questions.csv                                2.4 KB
+  evaluation\final_30_gemini_answer_evaluation.csv                  28.7 KB
+  evaluation\final_correct_retrieval_metrics.csv                     2.5 KB
+  evaluation\nyay_legal_correctness_audit.csv                        5.9 KB
+  evaluation\official_30_gemini_answers.csv                         28.7 KB
+  evaluation\official_30_retrieval_results.csv                       4.7 KB
+  frontend\.env.example                                              0.0 KB
+  frontend\Dockerfile                                                0.3 KB
+  frontend\README.md                                                 0.4 KB
+  frontend\index.html                                                1.8 KB
+  frontend\nginx.conf                                                0.3 KB
+  frontend\package-lock.json                                        52.4 KB
+  frontend\package.json                                              0.4 KB
+  frontend\public\assets\court_pillars_bg.jpg                      859.1 KB
+  frontend\public\assets\legal_library_bg.jpg                      873.3 KB
+  frontend\src\App.jsx                                              12.8 KB
+  frontend\src\api.js                                                1.0 KB
+  frontend\src\components\AnswerCard.jsx                            11.5 KB
+  frontend\src\components\AuthPage.jsx                               5.6 KB
+  frontend\src\components\DocumentReader.jsx                         3.7 KB
+  frontend\src\components\Footer.jsx                                 2.3 KB
+  frontend\src\components\HeroOrb.jsx                                1.6 KB
+  frontend\src\components\Icons.jsx                                  6.4 KB
+  frontend\src\components\LoadingPanel.jsx                           1.9 KB
+  frontend\src\components\Markdown.jsx                               5.0 KB
+  frontend\src\components\QuestionArea.jsx                           6.2 KB
+  frontend\src\components\SearchModeSelector.jsx                     2.1 KB
+  frontend\src\components\Sidebar.jsx                                3.9 KB
+  frontend\src\components\SourceCard.jsx                             3.4 KB
+  frontend\src\components\TechDetails.jsx                            2.2 KB
+  frontend\src\components\ThreeBackground.jsx                        3.4 KB
+  frontend\src\components\Toasts.jsx                                 0.9 KB
+  frontend\src\components\TopNav.jsx                                 4.9 KB
+  frontend\src\components\UploadCard.jsx                             5.4 KB
+  frontend\src\components\pages\AboutPage.jsx                        6.6 KB
+  frontend\src\components\pages\DocumentsPage.jsx                   22.6 KB
+  frontend\src\components\pages\EvaluationPage.jsx                   7.5 KB
+  frontend\src\components\pages\HowItWorksPage.jsx                   5.8 KB
+  frontend\src\components\pages\ResearchPage.jsx                     3.5 KB
+  frontend\src\components\pages\SystemPage.jsx                      12.0 KB
+  frontend\src\main.jsx                                              1.9 KB
+  frontend\src\styles.css                                           64.9 KB
+  frontend\src\translations.js                                      25.9 KB
+  frontend\vercel.json                                               0.1 KB
+  frontend\vite.config.js                                            0.6 KB
+  notebook\Nyay_AI_FINAL_UI_READY.ipynb                            932.8 KB
+  package_manifest.json                                              0.7 KB
+  render.yaml                                                        0.4 KB
+  run_all.bat                                                        1.5 KB
+  run_backend.bat                                                    0.5 KB
+  run_frontend.bat                                                   0.3 KB
+  tests\test_comprehensive_evaluation.py                            17.2 KB
+  tests\test_unit_and_integration.py                                 6.6 KB
+
+--------------------------------------------------------------------------------
+TOTAL INCLUDED FILES: 82
+TOTAL UNCOMPRESSED SIZE: 86.23 MB
+================================================================================

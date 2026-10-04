@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# Secrets & Environment
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# SQLite Databases & User Uploads
+database/auth.sqlite3
+database/user_upload_chroma/*
+!database/user_upload_chroma/README.md
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/frontend.log
+npm-debug.log*
+
+# Runtime & System
+.backend_ready
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+
